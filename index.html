@@ -1,21 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
     <title>Curriculum vitae</title>
 </head>
-<header>
-    <h1>Jérémie AUBREJAT</h1>
-    <address>10 Chemin des Fauvettes 18240 SAVIGNY EN SANCERRE</address>
-    <date></date>
-    <tel>tel: 0682145812</tel>
+<header>   
+    <div class="image">
+        <img src="img/profil.jpg" alt="photo de profil" title="photo de profil" class="col-start-1 col-span-1">
+    </div>
+    <div class="grid grid-rows-auto row-span-2 bg-gray-300">
+        <h1 class="text-6xl">Jérémie AUBREJAT</h1>
+        <p >Développeur Web/Web Mobile</p>   
+    </div>
 </header>
 <body>
-    
+    <main>
+        <nav class="grid lg:grid-cols-5 sm:grid-cols-1 gap-3">
+        <section>
+                <h2>OBJECTIF</h2>
+                Doté d'une vive conscience professionnelle et fort de nombreuses années d'expérience en commerce viticole et vinicol ainsi que la maintenace d'agroéquiments,
+                je souhaite maintenant évoluer et orienter ma carrière professionnelle vers un poste plus en adéquation avec mes aspirations et mes compétences.
+                En effet, j'ai choisi de valider un Titre Professionnel de Développeur web et Web Mobile afin de pouvoir allier travail et passion.          
+        </section>
+        <section>
+            <h2>COMPETENCES</h2>
+            <div>
+                <h3>Mécanique:</h3>
+                <p>
+                    Diagnostic et répartion des véhicules, machines à vendanger. 
+                    Etablissement des devis. 
+                    Gestion du stock des pièces détachées.
+                    Diagnostic éléctronique.
+                    Traitement de l'outillage de travail du sol.
+                </p>
+            </div>
+            <div>
+                <h3>Vente:</h3>
+                <p>
+                    Accueil et conseil des clients.
+                    Gestion du stock.
+                    Commandes auprès des fournisseurs.
+                    Facturation.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h2>EXPERIENCES</h2>
+            <p>
+                Sept 2020 à oct 2022: Responsable Vente magasin SASU Phyto Services Cosne/Loire.
+                Déc 2014 à août 2020: Technicien Grégoire Mécanique viticole SAS Alabeurth Sury-En-Vaux.
+                Sept 2005 à nov 2014: Technicien Mécanicien Citroën Garage Bonnisseau Sury-Près-Léré.
+            </p>
+        </section>
+        <section>
+            <h2>INFORMATION COMPLEMENTAIRES</h2>
+            <div>
+                <h3>Logiciels maîtrisés:</h3>
+                
+                        <ul>
+                            <li>Lightroom</li>
+                            <li>Photoshop</li>
+                            <li>Word</li>
+                            <li>Excel</li>
+                        </ul>                  
+            </div>
+            <div>
+                <h3>Langages maîtrisés:</h3>
+                <ul>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Javascript</li>
+                    <li>Php</li>
+                    <li>Notion en Python</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Frameworks maîtrisés:</h3>
+                <ul>
+                    <li>TailwindCss</li>
+                    <li>Laravel</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <h2>CENTRES D'INTERET</h2>
+            <p>Nouvelles téchnologies.
+               Informatique.
+               Réalité virtuelle.
+               Photographie.
+               Gaming.
+               Mécanique.
+               Moto.
+            </p>
+        </section>
+    </nav>
+    </main> 
+    <div class="xl:flex mb-4">
+        <article class="w-1/2">
+            <h3>FORMATION</h3>
+            <div>
+                <p>2003/2005 BAC PRO Maintenance des véhicules Option A Voitures particulières
+                    LP Louis Aragon Nevers
+                </p>
+                <p>2001/2003 BEP Maintenance des Véhicule Option A Voitures particulières
+                    LP Louis Aragon Nevers               
+                </p>
+            </div>
+        </article>
+        <article class="w-1/2">
+            <h3>COMPETENCES-CLES</h3>
+            <ul>
+                <li>Autonome</li>
+                <li>Organisé</li>
+                <li>Rigoureux</li>
+                <li>Esprit d'équipe</li>
+                <li>Sens du service</li>
+                <li>Inventif</li>
+            </ul>
+        </article>
+    </div>  
 </body>
 <footer>
-
+    <div class="bg-gray-300 text-center xl:fixed bottom-0 left-0 right-0">
+        <address>10 Chemin des Fauvettes 18240 SAVIGNY EN SANCERRE</address>
+        <p>Né le: 03/03/1985</p>
+        <a href="0682145812">0682145812</a>
+        <a href="jeremy.aubrejat@gmail.com">jeremy.aubrejat@gmail.com</a>
+        <p>Permis B + véhicule</p>
+        <a href="contact.html">Contact</a>
+    </div>  
 </footer>
 </html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Contact</title>
+</head>
+<header>   
+    <div class="image">
+        <img src="img/profil.jpg" alt="photo de profil" title="photo de profil" class="col-start-1 col-span-1">
+    </div>
+    <div class="grid grid-rows-auto row-span-2 bg-gray-300">
+        <h1 class="text-6xl">Jérémie AUBREJAT</h1>
+        <p >Développeur Web/Web Mobile</p>   
+    </div>
+</header>
+<body class="bg-blue-700">
+<div>
+    <form action="submit" method="POST" class="bg-blue-700 grid lg:grid-cols-8 sm:grid-cols-1 text-center grid-rows-6">
+            <label for="nom">Votre nom</label>
+            <input type="text" name="nom" id="nom" placeholder="Tapez votre nom" class="bg-blue-100">
+            <label for="prenom">Votre prénom</label>
+            <input type="prenom" name="prenom" id="prenom" placeholder="Tapez votre prénom" class="bg-blue-100">
+            <label for="email">Votre Email</label>
+            <input type="email" name="email" id="email" placeholder="Tapez votre Email" class="bg-blue-100">
+            <label for="address">Tapez votre adresse</label>
+            <input type="address" name="address" id="address" placeholder="Tapez votre adresse" class="bg-blue-100">
+            <label for="tel">Votre numéro de téléphone</label>
+            <input type="tel" name="tel" id="tel" placeholder="Tapez votre numéro de téléphone" class="bg-blue-100">
+            <label for="textarea">Tapez votre texte</label>
+            <textarea placeholder="Tapez votre texte" class="bg-blue-100"></textarea>
+            <button type="submit">Envoyer</button>
+    </form>
+</div>
+    
+</body>
+<footer class="fixed bottom-0 left-0 right-0">
+    <div class="bg-gray-300 text-center">
+        <a href="index.html">Accueil</a>
+        <address>10 Chemin des Fauvettes 18240 SAVIGNY EN SANCERRE</address>
+        <p>Né le: 03/03/1985</p>
+        <a href="0682145812">0682145812</a>
+        <a href="jeremy.aubrejat@gmail.com">jeremy.aubrejat@gmail.com</a>
+        <p>Permis B + véhicule</p>
+        <a href="contact.html">Contact</a>
+    </div>  
+</footer>
+</html>

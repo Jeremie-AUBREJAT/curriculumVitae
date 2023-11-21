@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+h2{
+    background-color: rgb(47, 47, 47);
+    color: white;
+}
+h3{
+    background-color: rgb(100,100,100);
+    color: white;
+}
+.image{
+    background-color: rgb(209 213 219)
+}
